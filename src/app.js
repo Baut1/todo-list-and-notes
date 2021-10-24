@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const path = require('path');
 
 //conectando a la base de datos
-mongoose.connect('mongodb://localhost/todo-notes')
+mongoose.connect('mongodb+srv://admin:vfPznlKEl8YQhF83@cluster0.6ius8.mongodb.net/Cluster0?retryWrites=true&w=majority')
     .then(db => console.log('Base de datos conectada'))
     .catch(err => console.log(err));
 
